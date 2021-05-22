@@ -1,0 +1,18 @@
+#if-else
+#program to read age and check if the student is eligable for vote or not
+name=input('enter name: ')
+age=int(input('enter age: '))
+if age>=18 :
+    print('Hello',name)
+    print('eligible for vote')
+else :
+    print('sorry!',name)
+    print('not eligible for vote')
+    
+,,,,
+Output:
+Enter name:dinesh
+Enter age:18
+Hello dinesh
+eligible for vote
+,,,,
